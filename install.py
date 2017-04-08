@@ -35,7 +35,7 @@ if option == 1:
     os.system('sudo apt-get install libjpeg-dev libfreetype6 zlib1g-dev')
     os.system('pip install PIL')
     os.system('pip install pillow')
-    #os.system('pip install PIL')
+    os.system('pip install qrcode')
     os.system('pip install http://effbot.org/downloads/Imaging-1.1.6.tar.gz')
     os.system('pip install netifaces')
     install = os.system("apt-get update && apt-get install -y build-essential git")
