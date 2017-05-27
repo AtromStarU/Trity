@@ -42,7 +42,7 @@ if option == 1:
     install2 = os.system("cp -R trity/ /opt/ && cp trity.py /opt/trity && cp run.sh /opt/trity && cp run.sh /usr/bin/trity && chmod +x /usr/bin/trity")
     os.system('apt-get install sendemail')
     os.system('apt-get install libncurses5')
-    pip.main(["install", "netifaces", "PIL", "scapy", "SpoofMAC", "pythonwhois", "readline", "BeautifulSoup", "requests", "mechanize", "google", "qrcode"])
+    pip.main(["install", "PIL", "scapy", "SpoofMAC", "pythonwhois", "readline", "BeautifulSoup", "requests", "mechanize", "google", "qrcode"])
     print "\033[1;32m[!] Finished Installing! Run 'trity' to run program [!]\033[0m"
     sys.exit()
 else:
