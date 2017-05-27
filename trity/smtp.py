@@ -1,5 +1,4 @@
 import sys, platform, time, os, urllib
-import platform, netifaces
 import random, string, smtplib
 from time import sleep
 from getpass import getpass
