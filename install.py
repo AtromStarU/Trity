@@ -19,7 +19,7 @@ header = """
 print header
 print "\033[1;36mOperating Systems Available:\033[1;36m "
 print "\n--------------------------"
-print "(1) Kali Linux / Ubuntu "
+print "(1) Kali Linux / Ubuntu / Rasbian"
 print "--------------------------\n"
 
 option = input("\033[0m[>] Select Operating System: \033[0m")
