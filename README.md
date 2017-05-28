@@ -1,5 +1,5 @@
 # Trity
-Trity is an advanced pentesting framework dedicated to everything from cryptography to spoofing.
+Trity is an advanced pentesting framework dedicated to everything from vulnerability testing to cryptography.
 
 ## Installation & Usage
 
@@ -24,13 +24,13 @@ Once finished, execute with:
 ### FAQ
 #### What if I get ImportError: no module named x
 ##### Make sure you have Internet and try manually installing it by executing: pip install x (whatever x is)
-========================
+---------------------------
 #### Will Trity work on Windows?
 ##### No
-========================
+---------------------------
 #### Will Trity work on Mac OSX
 ##### I am not sure because there is no way for me to test it, but if someone would like to and told me the results I would greatly appreciate it :-) Except that you would have to install the modules manually.
-========================
+---------------------------
 
 ### Donations?
 #### www.paypal.me/toxicnull
