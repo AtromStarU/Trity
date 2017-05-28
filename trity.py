@@ -125,8 +125,8 @@ banner()
 def banner1():
     print ""
     print ""+M+"|----- Made by _t0x1c aka toxic -----|"
-    print color.DARKCYAN +"|-----      Version: 3.2        -----|"
-    print color.WARNING + "|-----   1 tool - 35 choices    -----|"
+    print color.DARKCYAN +"|-----      Version: 3.3        -----|"
+    print color.WARNING + "|-----   1 tool - 36 choices    -----|"
     print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
     print color.BLUE + "|----- Network Pentesting tool! -----|"
     print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
@@ -136,9 +136,9 @@ print ""
 time.sleep(0.1)
 print ""+M+"|----- Made by _t0x1c aka toxic -----|" 
 time.sleep(0.1)
-print color.DARKCYAN + "|-----      Version: 3.2        -----|"
+print color.DARKCYAN + "|-----      Version: 3.3        -----|"
 time.sleep(0.1)
-print color.WARNING + "|-----   1 tool - 35 choices    -----|"
+print color.WARNING + "|-----   1 tool - 36 choices    -----|"
 time.sleep(0.1) 
 print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
 time.sleep(0.1)
@@ -154,7 +154,7 @@ if '3.2' not in r.text:
 else:
     print ('')
 swear = "fuck", "shit", "nigga", "bitch", "dick", "pussy", "cunt", "nigger", "asshole", "ass"
-spell = "helpp", "hellp", "bannerr", "baner", "emial", "HELP", "hwlp", "wesbite", "ehco", "anonymouss", "anonymouse", "toool", "tooll", "carft", "Info", "spooof", "spooff", "ecnode", "decde", "encde", "craftt", "qoute", "sitexists", "hlep", "claer", "twiter"
+spell = "helpp", "hellp", "bannerr", "baner", "emial", "HELP", "hwlp", "wesbite", "ehco", "anonymouss", "anonymouse", "toool", "tooll", "carft", "Info", "spooof", "spooff", "ecnode", "decde", "encde", "craftt", "qoute", "sitexists", "hlep", "claer", "twiter", "xxs", "sqll", "xsss", "xs"
 def tritymain():
     while True:
         try:
@@ -289,8 +289,9 @@ def tritymain():
 	    elif main == "ls":
 	        os.system('ls')
 	    elif main == "tool":
-	        print(color.UNDERLINE + ''+C+'Version: 3.2' + color.END)
-	        print(color.UNDERLINE + ''+C+'Time spent on it: 74 hours - 26 minutes' + color.END)
+	        print(color.UNDERLINE + ''+C+'Version: 3.3' + color.END)
+		print(color.UNDERLINE + ''+C+'36 options to choose from!' + color.END)
+	        print(color.UNDERLINE + ''+C+'Time spent on it: 76 hours - 14 minutes' + color.END)
 	        print(color.UNDERLINE + ''+C+'toxic is a sp00ky h4ck3r' + color.END)
 	    elif main == "website":
 		while True:
@@ -320,6 +321,6 @@ def tritymain():
             else:
 	        print (""+R+"[!] " + color.UNDERLINE + "\033[91m" + "That is not an option!" + color.END)
         except KeyboardInterrupt:
-		print "\n"
+		print "Ctrl-C Pressed! Use 'exit' to close the tool!"
 		tritymain()
 tritymain()
