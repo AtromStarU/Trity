@@ -321,6 +321,6 @@ def tritymain():
             else:
 	        print (""+R+"[!] " + color.UNDERLINE + "\033[91m" + "That is not an option!" + color.END)
         except KeyboardInterrupt:
-		print "Ctrl-C Pressed! Use 'exit' to close the tool!"
+		print (""+R+"[!] " + color.UNDERLINE + "\033[91m" + "\nCtrl-C Pressed! Use 'exit' to close the tool!" + color.END)
 		tritymain()
 tritymain()
