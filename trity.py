@@ -148,7 +148,7 @@ print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
 time.sleep(0.1)
 r = requests.get('http://pastebin.com/raw/vYcBSV4w') 
 
-if '3.2' not in r.text:
+if '3.3' not in r.text:
     print (''+R+'\nYou need to update! The newest version is: ' + color.BOLD + color.UNDERLINE + r.text + '\n')
     time.sleep(5)
 else:
