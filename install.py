@@ -27,6 +27,7 @@ option = input("\033[0m[>] Select Operating System: \033[0m")
 if option == 1:
     print "\033[1;33m[*] Loading...\033[0m"
     os.system('apt-get install python-pip')
+    os.system('easy_install pip')
     import pip
     os.system('sudo apt-get install libjpeg-dev libfreetype6 zlib1g-dev')
     os.system('pip install google')
