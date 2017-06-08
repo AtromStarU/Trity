@@ -85,7 +85,7 @@ if str(platform.system()) != "Linux":
 	sys.exit(""+R+"[!] " + color.UNDERLINE + "\033[91m" + "You are not using a Linux Based OS! Linux is a must-have for this script!" + color.END)
 if not os.geteuid() == 0:
     sys.exit(""+R+"[!] " + color.UNDERLINE + "\033[91m" + "Must be run as root. :/" + color.END)
-if 'no' in open('agree.txt').read():# take out the trity/
+if 'no' in open('trity/agree.txt').read():# take out the trity/
     print color.BOLD + """
 Note that Trity is provided as is, and is a royalty free open-source application.
 
@@ -98,19 +98,19 @@ Trity is designed purely for good and not evil. If you are planning on using thi
     if agree == "yes":
 	print (''+G+'' + color.UNDERLINE + 'Thanks!' + color.END)
 	time.sleep(3)
-	FILE = open("agree.txt","w")# take out the trity/
+	FILE = open("trity/agree.txt","w")# take out the trity/
         FILE.write('yes')
         FILE.close()
     elif agree == "y":
 	print (''+G+'' + color.UNDERLINE + 'Thanks!' + color.END)
 	time.sleep(3)
-	FILE = open("agree.txt","w")# take out the trity/
+	FILE = open("trity/agree.txt","w")# take out the trity/
         FILE.write('yes')
         FILE.close()
     elif agree == "Yes":
 	print (''+G+'' + color.UNDERLINE + 'Thanks!' + color.END)
 	time.sleep(3)
-	FILE = open("agree.txt","w")# take out the trity/
+	FILE = open("trity/agree.txt","w")# take out the trity/
         FILE.write('yes')
         FILE.close()
     else:
