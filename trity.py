@@ -125,8 +125,8 @@ banner()
 def banner1():
     print ""
     print ""+M+"|----- Made by _t0x1c aka toxic -----|"
-    print color.DARKCYAN +"|-----      Version: 3.3        -----|"
-    print color.WARNING + "|-----   1 tool - 36 choices    -----|"
+    print color.DARKCYAN +"|-----      Version: 3.4        -----|"
+    print color.WARNING + "|-----   1 tool - 35 choices    -----|"
     print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
     print color.BLUE + "|----- Network Pentesting tool! -----|"
     print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
@@ -136,9 +136,9 @@ print ""
 time.sleep(0.1)
 print ""+M+"|----- Made by _t0x1c aka toxic -----|" 
 time.sleep(0.1)
-print color.DARKCYAN + "|-----      Version: 3.3        -----|"
+print color.DARKCYAN + "|-----      Version: 3.4        -----|"
 time.sleep(0.1)
-print color.WARNING + "|-----   1 tool - 36 choices    -----|"
+print color.WARNING + "|-----   1 tool - 35 choices    -----|"
 time.sleep(0.1) 
 print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
 time.sleep(0.1)
@@ -201,7 +201,6 @@ def tritymain():
 	        print ""+T+"email "+W+"- bomb an email address"
 	        print ""+T+"spoof email "+W+"- spoof an email address"
 	        print ""+T+"sms"+W+" - spam text messages "
-	        print ""+T+"anonymous"+W+" - send an anonymous email"
                 print ""+T+"twitter"+W+" - check the details of a twitter account"
                 print ""+W+"+----------------------------+"
 	        print color.CYAN + "craft"+W+" - generate useful scripts "
