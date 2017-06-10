@@ -20,7 +20,6 @@ from admin import *
 from banner import *
 from joke import *
 from quote import *
-from anon import *
 from web import *
 from qr import *
 from siteexists import *
