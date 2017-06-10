@@ -28,6 +28,9 @@ from searchs import *
 from zip import *
 from emaill import *
 from sql import *
+
+VersionNum = "3.4" ####### Main for all
+
 try:
     import scapy
     import pip
@@ -124,7 +127,7 @@ banner()
 def banner1():
     print ""
     print ""+M+"|----- Made by _t0x1c aka toxic -----|"
-    print color.DARKCYAN +"|-----      Version: 3.4        -----|"
+    print color.DARKCYAN +"|-----      Version: {}        -----|".format(VersionNum)
     print color.WARNING + "|-----   1 tool - 35 choices    -----|"
     print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
     print color.BLUE + "|----- Network Pentesting tool! -----|"
@@ -135,7 +138,7 @@ print ""
 time.sleep(0.1)
 print ""+M+"|----- Made by _t0x1c aka toxic -----|" 
 time.sleep(0.1)
-print color.DARKCYAN + "|-----      Version: 3.4        -----|"
+print color.DARKCYAN + "|-----      Version: {}        -----|".format(VersionNum)
 time.sleep(0.1)
 print color.WARNING + "|-----   1 tool - 35 choices    -----|"
 time.sleep(0.1) 
@@ -147,7 +150,7 @@ print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
 time.sleep(0.1)
 r = requests.get('http://pastebin.com/raw/vYcBSV4w') 
 
-if '3.3' not in r.text:
+if (VersionNum) not in r.text:
     print (''+R+'\nYou need to update! The newest version is: ' + color.BOLD + color.UNDERLINE + r.text + '\n')
     time.sleep(5)
 else:
@@ -287,7 +290,7 @@ def tritymain():
 	    elif main == "ls":
 	        os.system('ls')
 	    elif main == "tool":
-	        print(color.UNDERLINE + ''+C+'Version: 3.3' + color.END)
+	        print(color.UNDERLINE + ''+C+'Version: ' + (VersionNum) + color.END)
 		print(color.UNDERLINE + ''+C+'36 options to choose from!' + color.END)
 	        print(color.UNDERLINE + ''+C+'Time spent on it: 76 hours - 14 minutes' + color.END)
 	        print(color.UNDERLINE + ''+C+'toxic is a sp00ky h4ck3r' + color.END)
