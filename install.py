@@ -35,6 +35,7 @@ if option == 1:
     os.system('pip install pythonwhois')
     os.system('pip install pillow')
     os.system('pip install qrcode')
+    os.system('pip install requests[security]')
     os.system('pip install http://effbot.org/downloads/Imaging-1.1.6.tar.gz')
     install = os.system("apt-get update && apt-get install -y build-essential git")
     install2 = os.system("cp -R trity/ /opt/ && cp trity.py /opt/trity && cp run.sh /opt/trity && cp run.sh /usr/bin/trity && chmod +x /usr/bin/trity")
