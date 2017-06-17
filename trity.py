@@ -148,8 +148,9 @@ print color.BLUE + "|----- Awesome Pentesting tool! -----|"
 time.sleep(0.1)
 print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
 time.sleep(0.1)
+time.sleep(0.2)
 r = requests.get('http://pastebin.com/raw/vYcBSV4w') 
-
+time.sleep(0.2)
 if (VersionNum) not in r.text:
     print (''+R+'\nYou need to update! The newest version is: ' + color.BOLD + color.UNDERLINE + r.text + '\n')
     time.sleep(5)
